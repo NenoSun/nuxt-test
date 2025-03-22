@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #f6f6f6;
+    overflow-y: scroll;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@theme {
+    --color-webblue: #6495ed
+}
